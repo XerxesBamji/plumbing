@@ -1,0 +1,85 @@
+ <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<section id="services" class="services bg-primary text-white">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-10 mx-auto">
+        <h2>Our Services</h2>
+        <hr class="small">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+              </span>
+              <h4>
+                <img <?php echo $this->Html->image('sink.png', array('width' => '50%'));?>
+                  <br></br>
+                <strong>Kitchen and Bathroom Installations</strong>
+              </h4>
+              <p>We offer a full bathroom installation service. We remove old suite, tilling, pipe work and install new suite, pipe work and full tiling of all types.</p>
+              <!-- <a href="#contact" class="btn btn-light">Learn More</a> -->
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+              </span>
+              <h4>
+                <img <?php echo $this->Html->image('radiator.png', array('width' => '80%'));?>
+                  <br></br>
+                <strong>Heating Services</strong>
+              </h4>
+              <p>Whether it is central heating, hot water systems, LPG or under-floor heating, our specialist team of plumbing experts have a wide range of experience providing heating solutions to our customers.</p>
+              <!-- <a href="#contact" class="btn btn-light">Learn More</a> -->
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+              </span>
+              <h4>
+                <img <?php echo $this->Html->image('gasleak.png', array('width' => '67%'));?>
+                  <br></br>
+                <strong>Gas Services</strong>
+              </h4>
+              <p>We provide a fast response for all domestic gas emergencies including gas leak rectification and gas central heating problems and services.</p>
+              <!-- <a href="#contact" class="btn btn-light">Learn More</a> -->
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+              </span>
+              <h4>
+                <img <?php echo $this->Html->image('washingmachine2.png', array('width' => '46%'));?>
+                  <br></br>
+                <strong>Plumbing (Commercial and Domestic)</strong>
+              </h4>
+              <p>We are capable of dealing with all type of plumbing issues. Whether its overflows, faulty valves, blocked drains or washing machines, we are able to help.</p>
+              <!-- <a href="#contact" class="btn btn-light">Learn More</a> -->
+            </div>
+          </div>
+        </div>
+        <!-- /.row (nested) -->
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>

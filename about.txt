@@ -1,0 +1,7 @@
+<section id="about" class="about">
+  <div class="container text-center">
+    <h2>A list of our services is shown below!</h2>
+    <p class="lead">If you have any queries dont hesitate to Contact Us. Our Details can be found below.</p>
+  </div>
+  <!-- /.container -->
+</section>
